@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    text-align: center;
+    padding-top: 800px;
+    background-color: cornsilk;
+}
+
+#welcome {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    display: table;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace
+}
+
+#tim {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#inside-section-welcome {
+
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 42px;
+}
+
+.menu {
+    font-family: fantasy;
+    position: fixed;
+    top: 0px;
+    background: white;
+    width: 100%;
+    z-index: 10;
+    margin-top: 0px;
+}
+
+.links {
+    display: inline;
+    padding-right: 25px;
+    padding-left: 33px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.article:hover {
+    color: fuchsia;
+}
+
+a {
+    text-decoration: none;
+    color: saddlebrown;
+    text-shadow: 2px 2px gainsboro;
+}
+#Contact_1 h3{
+    display: inline;
+    
+}
